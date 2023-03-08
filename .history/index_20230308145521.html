@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- スマホ用 -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- IE対応 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>greenum</title>
+    <!-- google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="./css/app.css" />
+  </head>
+
+  <body>
+    <header class="p-header l-flex js-float-header">
+      <h1 class="p-header__logo">
+        <a class="p-header__title" href="#">
+          <img src="./dist/photo/logo/400 px logo.jpg" alt="greenum" />
+        </a>
+      </h1>
+      <div class="p-nav-menu-trigger js-toggle-sp-menu">
+        <span class="p-nav-menu-trigger__border"></span>
+        <span class="p-nav-menu-trigger__border"></span>
+        <span class="p-nav-menu-trigger__border"></span>
+      </div>
+      <nav class="p-nav-menu js-toggle-sp-menu-target">
+        <ul class="p-nav-menu__content l-flex">
+          <li class="p-nav-menu__item js-top-link">
+            <a class="p-nav-menu__link">TOP</a>
+          </li>
+          <li class="p-nav-menu__item js-news-link">
+            <a class="p-nav-menu__link">NEWS</a>
+          </li>
+          <li class="p-nav-menu__item js-about-link">
+            <a class="p-nav-menu__link">ABOUT</a>
+          </li>
+          <li class="p-nav-menu__item js-hotel-link">
+            <a class="p-nav-menu__link">商品</a>
+          </li>
+          <li class="p-nav-menu__item js-access-link">
+            <a class="p-nav-menu__link">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="l-main">
+      <section
+        class="p-hero l-flex c-hero-show js-float-header-target"
+        id="top"
+      >
+        <p class="p-hero__title">
+          体に優しい<br />
+          香りがいい<br />
+          石鹸
+        </p>
+      </section>
+
+      <section class="c-container" id="news">
+        <h2 class="c-container-title js-border-hide boldBorder">NEWS</h2>
+        <div class="c-container__body">
+          <div class="p-news js-content-hide content-show">
+            <div class="p-news__area">
+              <a class="p-news__item l-flex">
+                <div class="p-news__img u-between-margin">
+                  <img
+                    src="./dist/photo/展示会/IMG_2547-a.jpg"
+                    alt="ニュース画像"
+                  />
+                </div>
+                <table class="p-news__text">
+                  <tr class="p-news__article">
+                    <th class="p-news__title">イベント</th>
+                    <td class="p-news__detail">2021年10/31(土) 10:00〜18:00</td>
+                  </tr>
+                  <tr class="p-news__article">
+                    <th class="p-news__title">会場</th>
+                    <td class="p-news__detail">泉ガーデンギャラリー</td>
+                  </tr>
+                  <tr class="p-news__article">
+                    <th class="p-news__title">住所</th>
+                    <td class="p-news__detail">
+                      〒106-6090 東京都港区六本木1-5-2<br />
+                    </td>
+                  </tr>
+                </table>
+              </a>
+            </div>
+            <div class="p-news__area">
+              <a class="p-news__item l-flex">
+                <div class="p-news__img u-between-margin">
+                  <img
+                    src="./dist/photo/展示会/IMG_2656-a.jpg"
+                    alt="ニュース画像"
+                  />
+                </div>
+                <table class="p-news__text">
+                  <tr class="p-news__article">
+                    <th class="p-news__title">イベント</th>
+                    <td class="p-news__detail">2020年1/10(土) 11:30〜19:00</td>
+                  </tr>
+                  <tr class="p-news__article">
+                    <th class="p-news__title">会場</th>
+                    <td class="p-news__detail">COFFICE門前仲町</td>
+                  </tr>
+                  <tr class="p-news__article">
+                    <th class="p-news__title">住所</th>
+                    <td class="p-news__detail">
+                      〒135-0048 東京都江東区門前仲町1丁目13-12
+                    </td>
+                  </tr>
+                </table>
+              </a>
+            </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="l-btn-area u-clearfix js-content-hide">
+          <button class="c-btn c-btn__more c-changeBorder">
+            <as class="c-changeBorder__inner"
+              >MORE <span class="c-actionIcon">&gt;</span></as>
+          </button>
+        </div>
+      </section>
+
+      <section class="c-bgColor-lightblue" id="about">
+        <div class="c-container">
+          <h2 class="c-container-title">ABOUT</h2>
+          <div class="c-container__body">
+            <div class="p-about js-content-hide">
+              <div id="slider">
+                <div id="sld_area">
+                  <div id="sld1" class="sld">
+                    <div class="p-about__img">
+                      <img src="./dist/photo/展示会/IMG_2544-a.jpg" alt="" />
+                    </div>
+                    <div class="p-about__text">
+                      <p class="p-about__heading">天然ソープ</p>
+                      <p class="p-about__detail">
+                        私たちがお届けするラトビア産の天然ソープの中には100種類以上の香りが含まれています。<br />
+                        色と天然素材で独特のデザインと香りを演出。<br />
+                        毎日使うごとに貴女はリフレッシュ感と幸福な時間に時が経つのを忘れます。<br />
+                        33種類の異なる香りや色の中からあなたに合った天然ソープをお選びください。<br />
+                      </p>
+                    </div>
+                  </div>
+                  <div id="sld2" class="sld">
+                    <div class="p-about__img">
+                      <img
+                        src="./dist/photo/展示会/IMG_2618-sized.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="p-about__text">
+                      <p class="p-about__heading">シャワージェル</p>
+                      <p class="p-about__detail">
+                        私たちがお届けするシャワージェルは、スーパーフルーツとして名高いユーラシア大陸原産のグミ科の植物であるシーバックソーンそしてアロエベラを配合しています。<br />
+                        そのためお肌の乾燥を防ぎ、潤いを与えるだけでなく、整肌に導きます。<br />
+                        豊かなアロマの香りに包まれながら、ぜひ毎日のボディケアにご利用いただけると幸いです。<br />
+                      </p>
+                    </div>
+                  </div>
+                  <div id="sld3" class="sld">
+                    <div class="p-about__img">
+                      <img src="./dist/photo/展示会/IMG_2683-b.jpg" alt="" />
+                    </div>
+                    <div class="p-about__text">
+                      <p class="p-about__heading">バスボール</p>
+                      <p class="p-about__detail">
+                        至福の時間を与えてくれるバスバブルボール。<br />
+                        バスタブに放った時に深アロマの香りがバスループを満たします。<br />
+                        80種類以上の香りが含まれており、色と天然素材で毎日違ったリラックスタイムを与えてくれます。<br />
+                        7種類の異なる色と香りが貴女を至福の時間に誘います。<br />
+                        タイムズスクエアには世界中から様々な人が訪れることから、「世界の交差点」とも呼ばれています。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="sld_nav"></div>
+                <a id="sld_prev" class="sld_dir_btn">&lt;</a>
+                <a id="sld_next" class="sld_dir_btn">&gt;</a>
+              </div>
+            </div>
+          </div>
+          <div class="l-btn-area u-clearfix js-content-hide">
+            <button class="c-btn c-btn__more c-changeBorder">
+              <a class="c-changeBorder__inner"
+                >MORE <span class="c-actionIcon">&gt;</span></a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-container" id="hotel">
+        <h2 class="c-container-title js-border-hide boldBorder">商品</h2>
+        <div class="p-menus">
+          <div class="p-panel-group l-flex u-bottom-margin_xl">
+            <a href="" class="c-panel c-panel--hover js-content-hide">
+              <div class="c-panel__img">
+                <img src="./dist/photo/ソープイメージ/2N9A9751-a.jpg" alt="" />
+              </div>
+              <div class="c-panel__detail">
+                <p class="p-menus__menuName">ラトビア石鹸</p>
+                <p>- アップル -</p>
+                <p class="p-menus__price">￥990</p>
+              </div>
+            </a>
+            <a href="" class="c-panel c-panel--hover js-content-hide">
+              <div class="c-panel__img">
+                <img src="./dist/photo/ソープイメージ/2N9A9661-a.jpg" alt="" />
+              </div>
+              <div class="c-panel__detail">
+                <p class="p-menus__menuName">ラトビア石鹸</p>
+                <p>- キウイ -</p>
+                <p class="p-menus__price">￥990</p>
+              </div>
+            </a>
+            <a href="" class="c-panel c-panel--hover js-content-hide">
+              <div class="c-panel__img">
+                <img src="./dist/photo/ソープイメージ/2N9A9626-a.jpg" alt="" />
+              </div>
+              <div class="c-panel__detail">
+                <p class="p-menus__menuName">ラトビア石鹸</p>
+                <p>- 桃 -</p>
+                <p class="p-menus__price">￥990</p>
+              </div>
+            </a>
+
+            <a href="" class="c-panel c-panel--hover js-content-hide">
+              <div class="c-panel__img">
+                <img src="./dist/photo/ソープイメージ/2N9A9541-a.jpg" alt="" />
+              </div>
+              <div class="c-panel__detail">
+                <p class="p-menus__menuName">ラトビア石鹸</p>
+                <p>- オレンジ -</p>
+                <p class="p-menus__price"> ￥990</p>
+              </div>
+            </a>
+            <a href="" class="c-panel c-panel--hover js-content-hide">
+              <div class="c-panel__img">
+                <img src="./dist/photo/ソープイメージ/2N9A9499-a.jpg" alt="" />
+              </div>
+              <div class="c-panel__detail">
+                <p class="p-menus__menuName">ラトビア石鹸</p>
+                <p>- メロン -</p>
+                <p class="p-menus__price">￥990</p>
+              </div>
+            </a>
+            <a href="" class="c-panel c-panel--hover js-content-hide">
+              <div class="c-panel__img">
+                <img src="./dist/photo/ソープイメージ/2N9A9282-a.jpg" alt="" />
+              </div>
+              <div class="c-panel__detail">
+                <p class="p-menus__menuName">ラトビア石鹸</p>
+                <p>- サンライト -</p>
+                <p class="p-menus__price">一泊 ￥1,290</p>
+              </div>
+            </a>
+            <a href="" class="c-panel c-panel--hover js-content-hide">
+              <div class="c-panel__img">
+                <img src="./dist/photo/ソープイメージ/2N9A9334-a.jpg" alt="" />
+              </div>
+              <div class="c-panel__detail">
+                <p class="p-menus__menuName">ラトビア石鹸</p>
+                <p>- プロボケーションElizabet -</p>
+                <p class="p-menus__price">￥1,560</p>
+              </div>
+            </a>
+
+            <a href="" class="c-panel c-panel--hover js-content-hide">
+              <div class="c-panel__img">
+                <img src="./dist/photo//ソープイメージ/2N9A9387-a.jpg" alt="" />
+              </div>
+              <div class="c-panel__detail">
+                <p class="p-menus__menuName">ラトビア石鹸</p>
+                <p>- セクシーCaroline -</p>
+                <p class="p-menus__price">￥1,560</p>
+              </div>
+            </a>
+            <a href="" class="c-panel c-panel--hover js-content-hide">
+              <div class="c-panel__img">
+                <img src="./dist/photo//ソープイメージ/2N9A9439-a.jpg" alt="" />
+              </div>
+              <div class="c-panel__detail">
+                <p class="p-menus__menuName">ラトビア石鹸</p>
+                <p>- ローズ -</p>
+                <p class="p-menus__price">￥1,290</p>
+              </div>
+            </a>
+            <a href="" class="c-panel c-panel--hover js-content-hide">
+              <div class="c-panel__img">
+                <img src="./dist/photo//ソープイメージ/2N9A9713-a.jpg" alt="" />
+              </div>
+              <div class="c-panel__detail">
+                <p class="p-menus__menuName">ラトビア石鹸</p>
+                <p>- ブルーマニー -</p>
+                <p class="p-menus__price">￥1,640</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="c-btn-area u-clearfix js-content-hide">
+          <button class="c-btn c-btn__more c-changeBorder">
+            <a class="c-changeBorder__inner"
+              >MORE <span class="c-actionIcon">&gt;</span></a
+            >
+          </button>
+        </div>
+      </section>
+
+      
+      <section class="c-container" id="access">
+        <h2 class="c-container-title js-border-hide boldBorder">お問い合わせ</h2>
+        <div class="c-container__body">
+          <div class="p-access">
+            <div class="p-access__map js-content-hide">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.514224588353!2d139.3338909!3d35.6643383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e7a68b2f9f7%3A0x1ebb2cbafce5b19c!2z44CSMTkyLTAwNjMg5p2x5Lqs6YO95YWr546L5a2Q5biC5YWD5qiq5bGx55S677yT5LiB55uu77yR77yS4oiS77yVIOODoeOCvuODs-WFg-aoqg!5e0!3m2!1sja!2sjp!4v1678254254022!5m2!1sja!2sjp"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+            <div class="p-access__showName js-content-hide">
+              <span class="p-access__subName">ラトビア天然</span><br />
+              <span class="p-access__mainName">greenum</span>
+              <span class="p-access__ruby">Japan</span>
+            </div>
+            <div
+              class="p-access__information js-border-hide lightBorder js-content-hide"
+            >
+              <dl class="c-table">
+                <dt class="c-table__heading">住所</dt>
+                <dd class="c-table__data">〒192-0063 東京都八王子市元横山町3-12-5-201</dd>
+              </dl>
+              <dl class="c-table">
+                <dt class="c-table__heading">電話</dt>
+                <dd class="c-table__data">050-3552-7464</dd>
+              </dl>
+              <dl class="c-table">
+                <dt class="c-table__heading">メール</dt>
+                <dd class="c-table__data">info@greenum.co.jp</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- jquery -->
+    <script src="./src/js/jquery-3.4.1.min.js"></script>
+    <script src="./dist/build.js"></script>
+    <footer class="p-footer">
+      <p>Copyright © shuNexta. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
